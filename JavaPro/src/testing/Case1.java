@@ -25,7 +25,7 @@ public class Case1 {
 	    d.switchTo().defaultContent();
 	    d.findElementById("emailTxt").sendKeys("localhosssst");
 	    d.findElementById("pwd1").sendKeys("localhost");
-	    d.quit();
+	
 	    }
 
 }
