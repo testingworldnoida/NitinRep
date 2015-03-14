@@ -21,7 +21,7 @@ public class Case1 {
 	    d.get("https://www.naukri.com");
 	    Thread.sleep(30000);
 	    d.findElementByLinkText("Login").click();
-	    
+	    System.out.println("HELLO WORLD");
 	    d.switchTo().defaultContent();
 	    d.findElementById("emailTxt").sendKeys("localhosssst");
 	    d.findElementById("pwd1").sendKeys("localhost");
